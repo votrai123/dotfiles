@@ -3,7 +3,7 @@ if !exists('g:lspconfig')
 endif
 
 lua << EOF
-  vim.lsp.set_log_level("debug")
+--vim.lsp.set_log_level("debug")
 EOF
 
 lua << EOF
@@ -98,18 +98,6 @@ nvim_lsp.tsserver.setup {
   on_attach = on_attach,
   filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
   capabilities = capabilities
-}
-
-nvim_lsp.javascript.setup{
-
-}
-
-nvim_lsp.tsserver.setup {
-    on_attach = function(client) 
-        client.resolved_capabilities.code_action = false
-    end,
-    -- just to make sure the server attaches in in a random test directory
-    root_dir = function() return vim.fn.getcwd() end
 }
 
 nvim_lsp.diagnosticls.setup {

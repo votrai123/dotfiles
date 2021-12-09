@@ -15,7 +15,6 @@ require'nvim-treesitter.configs'.setup {
   },
   ensure_installed = {
     "tsx",
-    "js",
     "toml",
     "json",
     "yaml",
@@ -24,11 +23,12 @@ require'nvim-treesitter.configs'.setup {
     "scss",
     "css",
     "vim",
-    "rudy",
     "regex",
     "kotlin",
     "jsdoc",
-    "java"
+    "java",
+    "fish",
+    "vim"
   },
 }
 
