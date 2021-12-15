@@ -1,2 +1,2 @@
 # dotfiles
-My dotfiles with nvim and one some plugins nvim 
+My dotfiles for nvim and one some plugins nvim 
