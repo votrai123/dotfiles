@@ -1,6 +1,8 @@
 " Description: Keymaps
 
 nnoremap <S-C-p> "0p
+inoremap jj <ESC>
+
 " Delete without yank
 nnoremap <leader>d "_d
 nnoremap x "_x
