@@ -1,7 +1,7 @@
 {
-	"version": "1.8.1",
+	"version": "1.9.2",
 	"tipsConfig": {
-		"daysLeftBeforeGeneralTip": 1,
+		"daysLeftBeforeGeneralTip": 3,
 		"firstTimeMinDaysToRemind": 4,
 		"firstTimeMaxDaysToRemind": 6,
 		"minDaysToRemind": 6,
@@ -11,41 +11,41 @@
 		"tips": {
 			"generalTips": {
 				"elementInspector": {
-					"shownDate": "2021-10-27T04:47:45.378Z"
+					"shownDate": "2022-01-23T07:59:08.654Z"
 				},
 				"logCatMonitor": {
 					"shownDate": "2021-10-15T03:05:02.483Z"
 				},
 				"networkInspector": {
-					"shownDate": "2021-08-08T04:55:23.815Z"
+					"shownDate": "2022-03-10T08:36:56.494Z"
 				},
 				"directDebuggingWithHermes": {
-					"shownDate": "2021-08-23T07:16:25.864Z"
+					"shownDate": "2021-12-29T10:05:28.847Z"
 				},
 				"debuggingRNWAndMacOSApps": {
-					"shownDate": "2021-12-01T07:30:59.706Z"
+					"shownDate": "2022-02-26T07:06:34.775Z"
 				},
 				"expoHostType": {
 					"shownDate": "2021-09-14T04:45:37.716Z"
 				},
 				"customEnvVariables": {
-					"shownDate": "2021-11-16T02:37:50.133Z"
+					"shownDate": "2022-04-05T02:16:07.889Z"
 				}
 			},
 			"specificTips": {
 				"networkInspectorLogsColorTheme": {}
 			}
 		},
-		"lastExtensionUsageDate": "2021-12-26T04:20:32.612Z"
+		"lastExtensionUsageDate": "2022-04-15T09:05:07.177Z"
 	},
 	"surveyConfig": {
 		"shortPeriodToRemind": 30,
 		"longPeriodToRemind": 90,
 		"popCoveragePercent": 0.1,
 		"enabled": true,
-		"daysLeftBeforeSurvey": 26,
+		"daysLeftBeforeSurvey": 17,
 		"surveyName": "userSatisfactionSurvey",
 		"surveyUrl": "https://www.surveymonkey.com/r/6FJGVDV",
-		"lastExtensionUsageDate": "2021-12-26T04:20:37.921Z"
+		"lastExtensionUsageDate": "2022-04-15T09:05:09.922Z"
 	}
 }
